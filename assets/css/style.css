@@ -1,0 +1,48 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.main{
+    text-align: center;
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(228, 180, 180);
+}
+.display-area{
+    background-color: azure;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+
+}
+.row:before, .row:after{
+    content:"";
+    display: table;
+    clear: both;
+    width: 100px;
+
+}
+.col-3{
+    width: 25%;
+    padding: 5px  5px;
+    float: left;
+
+}
+.col-6{
+    width:50%;
+    padding: 5px  5px;
+    float: left;
+
+}
+.button{
+    width:100%;
+    height: 40px;
+    outline: none;
+
+}
+.button .top-button{
+    background-color: aqua;
+   
+
+}
